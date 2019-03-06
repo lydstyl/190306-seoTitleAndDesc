@@ -21,7 +21,7 @@
             <page-description xml:lang="en">Discover our professional quality products: hair dryers, straighteners, hair clipper, beard trimmer and other beauty solutions on our site!</page-description>
             <page-description xml:lang="es-ES">¡Descubre nuestros productos de desarrollo y calidad profesional: secadores, planchas, cortapelos para cabello, barberos y otras soluciones de belleza en nuestro sitio web!</page-description>
             <page-description xml:lang="fr-BE">Découvrez nos produits de qualité professionnelle : sèche cheveux, lisseur, tondeuse cheveux, tondeuse barbe et autres solutions beauté sur notre site !</page-description>
-            <page-description xml:lang="fr-FR">Sur Babyliss.fr, découvrez des solutions de beauté à la pointe de la technologie et de qualité professionnelle : sèche-cheveux, tondeuse à barbe, épilateur électrique… </page-description>
+            <page-description xml:lang="fr-FR">Sur Babyliss.fr, découvrez des solutions de beauté à la pointe de la technologie et de qualité professionnelle : sèche-cheveux, tondeuse à barbe, épilateur électrique…</page-description>
             <page-description xml:lang="it-IT">Shopping online con il leader delle soluzioni di e-commerce on-demand.</page-description>
             <page-description xml:lang="ja-JP">オンデマンド eコマースソリューションの最先端プラットフォームでオンラインショッピング。</page-description>
             <page-description xml:lang="nl-BE">Ontdek onze producten van professionele kwaliteit: haardrogers, stijltangen, haartrimmers, baardtrimmers en andere beautyproducten op onze website!</page-description>
@@ -182,7 +182,7 @@
         <parent>root</parent>
         <page-attributes>
             <page-title xml:lang="x-default">TOUTE L'ACTUALITE BABYLISS</page-title>
-            <page-title xml:lang="fr-FR">Blog | Actus, Conseils, Promotions | BaByliss Paris</page-title>
+            <page-title xml:lang="fr-FR">Promotions | BaByliss Paris</page-title>
             <page-keywords xml:lang="fr-FR">blog, actu, conseil, promotion, femme, homme, offre de remboursement, idée coiffure, tuto, tendance</page-keywords>
         </page-attributes>
         <custom-attributes>
@@ -203,7 +203,7 @@
         <position>0.0</position>
         <page-attributes>
             <page-title xml:lang="x-default">Nos conseils d'experts pour réussir vos coiffure - BaByliss Paris</page-title>
-            <page-title xml:lang="fr-FR">Nos conseils coiffure et beauté d'experts | BaByliss Paris </page-title>
+            <page-title xml:lang="fr-FR">Nos conseils coiffure et beauté d'experts |BaByliss Paris</page-title>
             <page-keywords xml:lang="fr-FR">babyliss, tuto coiffure, tuto, blog, idee coiffure, conseil maquillage, manure, conseil beauté</page-keywords>
         </page-attributes>
         <custom-attributes>
@@ -232,7 +232,7 @@
         <position>1.0</position>
         <page-attributes>
             <page-title xml:lang="x-default">Tous nos conseils dédiés aux hommes - BaByliss Paris</page-title>
-            <page-title xml:lang="fr-FR">Tous nos conseils dédiés aux hommes | BaByliss Paris </page-title>
+            <page-title xml:lang="fr-FR">Nos conseils beauté dédiés aux hommes | BaByliss Paris</page-title>
             <page-keywords xml:lang="fr-FR">tuto, conseil, babyliss for men, homme, blog, couper les cheveux a la tondeuse, tailler barbe, barbe 3 jours, soin barbe, tuto</page-keywords>
         </page-attributes>
         <custom-attributes>
@@ -9330,9 +9330,9 @@ Les cheveux sont préalablement chauffés dans la chambre céramique avant de pa
         <searchable-flag>true</searchable-flag>
         <page-attributes>
             <page-title xml:lang="fr-BE">Conditions générales de vente</page-title>
-            <page-title xml:lang="fr-FR">Conditions générales de vente</page-title>
+            <page-title xml:lang="fr-FR">Conditions générales de vente | BaByliss Paris</page-title>
             <page-description xml:lang="fr-BE">conditions générales de vente BaByliss</page-description>
-            <page-description xml:lang="fr-FR">conditions générales de vente BaByliss</page-description>
+            <page-description xml:lang="fr-FR">Retrouvez toutes les conditions générales de vente BaByliss : commande, livraison, prix, modalités de paiement, service clientèle…</page-description>
         </page-attributes>
         <custom-attributes>
             <custom-attribute attribute-id="body" xml:lang="fr-BE">&lt;div class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList"&gt;&#13;
@@ -26743,9 +26743,9 @@ Vous pouvez vous désabonner à tout moment en cliquant sur le lien de désinscr
         <searchable-flag>true</searchable-flag>
         <page-attributes>
             <page-title xml:lang="fr-BE">Garantie &amp; SAV BaByliss Paris</page-title>
-            <page-title xml:lang="fr-FR">Garantie &amp; SAV BaByliss Paris</page-title>
+            <page-title xml:lang="fr-FR">Garantie |BaByliss Paris</page-title>
             <page-description xml:lang="fr-BE">Tout savoir sur les conditions de garantie et de SAV BaByliss</page-description>
-            <page-description xml:lang="fr-FR">Tout savoir sur les conditions de garantie et de SAV BaByliss</page-description>
+            <page-description xml:lang="fr-FR">Retrouvez les conditions de garanties BaByliss selon le type de produit que vous possédez : cheveux, épilation, beauté, barbe…</page-description>
         </page-attributes>
         <custom-attributes>
             <custom-attribute attribute-id="body" xml:lang="fr-BE">&lt;div class="page-banner"&gt;&#13;
@@ -48146,12 +48146,12 @@ Le mode Protect détecte la nature de vos cheveux et ajuste automatiquement les 
         <page-attributes>
             <page-title xml:lang="x-default">Site Genesis Store Locator</page-title>
             <page-title xml:lang="fr-BE">Points de vente des produits BaByliss Paris</page-title>
-            <page-title xml:lang="fr-FR">Points de vente des produits BaByliss Paris</page-title>
+            <page-title xml:lang="fr-FR">Points de vente des produits BaByliss | BaByliss Paris</page-title>
             <page-title xml:lang="it-IT">Store Locator di SiteGenesis</page-title>
             <page-title xml:lang="ja-JP">SiteGenesis 店舗検索</page-title>
             <page-title xml:lang="zh-CN">SiteGenesis 实体店地址搜索</page-title>
             <page-description xml:lang="fr-BE">A la recherche de produits BaByliss ? Trouvez nos revendeurs grâce à notre outil de localisation</page-description>
-            <page-description xml:lang="fr-FR">A la recherche de produits BaByliss ? Trouvez nos revendeurs grâce à notre outil de localisation</page-description>
+            <page-description xml:lang="fr-FR">A la recherche de produits BaByliss (sèche-cheveux, tondeuse à cheveux, épilateur…) ? Trouvez l'ensemble de nos revendeurs grâce à notre outil de localisation en ligne.</page-description>
         </page-attributes>
         <sitemap-included-flag>false</sitemap-included-flag>
         <sitemap-changefrequency>weekly</sitemap-changefrequency>
@@ -51747,7 +51747,7 @@ C’est très simple, il suffit de clipser 2 mèches de cheveux dans chacune des
         <searchable-flag>false</searchable-flag>
         <page-attributes>
             <page-title xml:lang="fr-BE">A propos du Groupe BaByliss Paris</page-title>
-            <page-title xml:lang="fr-FR">A propos du Groupe BaByliss Paris</page-title>
+            <page-title xml:lang="fr-FR">Qui sommes-nous ? A propos | BaByliss Paris</page-title>
             <page-description xml:lang="fr-BE">Découvrez l'histoire de BaByliss, marque pionnière qui accompagne depuis plus de 50 ans particuliers et professionnels sur les solutions beauté !</page-description>
             <page-description xml:lang="fr-FR">Découvrez l'histoire de BaByliss, marque pionnière qui accompagne depuis plus de 50 ans particuliers et professionnels sur les solutions beauté !</page-description>
         </page-attributes>
