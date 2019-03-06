@@ -21,7 +21,7 @@
             <page-description xml:lang="en">Discover our professional quality products: hair dryers, straighteners, hair clipper, beard trimmer and other beauty solutions on our site!</page-description>
             <page-description xml:lang="es-ES">¡Descubre nuestros productos de desarrollo y calidad profesional: secadores, planchas, cortapelos para cabello, barberos y otras soluciones de belleza en nuestro sitio web!</page-description>
             <page-description xml:lang="fr-BE">Découvrez nos produits de qualité professionnelle : sèche cheveux, lisseur, tondeuse cheveux, tondeuse barbe et autres solutions beauté sur notre site !</page-description>
-            <page-description xml:lang="fr-FR">Sur Babyliss.fr, découvrez des solutions de beauté à la pointe de la technologie et de qualité professionnelle : sèche-cheveux, tondeuse à barbe, épilateur électrique… </page-description>
+            <page-description xml:lang="fr-FR">Découvrez nos produits de qualité professionnelle : sèche cheveux, lisseur, tondeuse cheveux, tondeuse barbe et autres solutions beauté sur notre site !</page-description>
             <page-description xml:lang="it-IT">Shopping online con il leader delle soluzioni di e-commerce on-demand.</page-description>
             <page-description xml:lang="ja-JP">オンデマンド eコマースソリューションの最先端プラットフォームでオンラインショッピング。</page-description>
             <page-description xml:lang="nl-BE">Ontdek onze producten van professionele kwaliteit: haardrogers, stijltangen, haartrimmers, baardtrimmers en andere beautyproducten op onze website!</page-description>
@@ -986,8 +986,8 @@ La pagina non è più disponibile: (pagina o file non trovati: errore 404). Prov
     <content content-id="BaByliss_partenaire_LaParisienne">
         <display-name xml:lang="fr-BE">BaByliss partenaire de La Parisienne</display-name>
         <display-name xml:lang="fr-FR">BaByliss partenaire de La Parisienne</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -1113,7 +1113,7 @@ Retrouvez aussi BaByliss dans les giftbags des 40 000 coureuses et au village é
         <folder-links>
             <classification-link folder-id="News"/>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-included-flag>false</sitemap-included-flag>
         <sitemap-changefrequency>hourly</sitemap-changefrequency>
         <sitemap-priority>1.0</sitemap-priority>
     </content>
@@ -2264,8 +2264,8 @@ Quick Charge (snel opladen)&#13;
         <display-name xml:lang="x-default">Epilation sans douleur</display-name>
         <display-name xml:lang="fr-BE">Epilation sans douleur longue durée : nos conseils pour bien choisir sa méthode d'épilation</display-name>
         <display-name xml:lang="fr-FR">Epilation sans douleur longue durée : nos conseils pour bien choisir sa méthode d'épilation</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -3686,8 +3686,8 @@ et 1 pochette pour un rangement facile&#13;
 
     <content content-id="babyliss-bien-etre-2018">
         <display-name xml:lang="fr-FR">ACTIVITE BIEN-ETRE AVEC BABYLISS</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -3724,8 +3724,8 @@ Règlement complet disponible au téléchargement &lt;a target="_blank" href="of
     <content content-id="babyliss-propose-ses-produits-emblematiques">
         <display-name xml:lang="x-default">eshop article</display-name>
         <display-name xml:lang="fr-FR">BaByliss propose ses produits emblématiques en vente en ligne pour les fêtes</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -30898,8 +30898,8 @@ Pour participer, c’est très simple : &lt;/br&gt;&lt;/br&gt;&#13;
 
     <content content-id="jeux-concours-instagram-babyliss-men">
         <display-name xml:lang="fr-FR">JEU CONCOURS SAINT-VALENTIN</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes>
             <page-title xml:lang="fr-FR">Jeu concours Saint-Valentin</page-title>
@@ -30950,7 +30950,7 @@ Vous avez &lt;b&gt; jusqu'au 14 février 2019 12h &lt;/b&gt; pour participer. :)
         <folder-links>
             <classification-link folder-id="News"/>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-included-flag>false</sitemap-included-flag>
     </content>
 
     <content content-id="jobs-landing">
@@ -35018,8 +35018,8 @@ Avec le &lt;a href="$httpsUrl('Product-Show','pid','DIGITALSENSORST500E')$" clas
 
     <content content-id="mes-routines-beaute">
         <display-name xml:lang="fr-FR">Quels pinceaux pour ma routine Make-up?</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -35164,15 +35164,15 @@ Dessinez le contour des lèvres puis tapotez le rouge à lèvres pour un résult
                 <position>239.0</position>
             </classification-link>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-included-flag>false</sitemap-included-flag>
         <sitemap-changefrequency>weekly</sitemap-changefrequency>
         <sitemap-priority>1.0</sitemap-priority>
     </content>
 
     <content content-id="mes-routines-beaute-manucure">
         <display-name xml:lang="fr-FR">Comment réaliser une manucure parfaite</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -35257,15 +35257,15 @@ Avant la pose du vernis, la lime à &lt;b&gt;6 faces&lt;/b&gt; BaByliss vous per
                 <position>240.0</position>
             </classification-link>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-included-flag>false</sitemap-included-flag>
         <sitemap-changefrequency>weekly</sitemap-changefrequency>
         <sitemap-priority>1.0</sitemap-priority>
     </content>
 
     <content content-id="mini-electrique">
         <display-name xml:lang="fr-FR">NOS 4 MINIS ÉLECTRIQUES : PARFAITS POUR LES VACANCES</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -35303,7 +35303,7 @@ Un mini-lisseur ou un mini-boucleur fait partie de l’attirail indispensable de
                 <position>237.0</position>
             </classification-link>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-included-flag>false</sitemap-included-flag>
         <sitemap-changefrequency>weekly</sitemap-changefrequency>
         <sitemap-priority>0.8</sitemap-priority>
     </content>
@@ -35771,8 +35771,8 @@ Pour réaliser un brushing impeccable, retrouvez de nombreux accessoires indispe
 
     <content content-id="nouvelle-collection-b-elegant">
         <display-name xml:lang="fr-FR">Découvrez la nouvelle collection B. Elegant</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -35833,8 +35833,8 @@ Des &lt;a href="$httpsUrl('Product-Show','pid','makeupbelegant')$" class=service
         <display-name xml:lang="x-default">Collection Digital Sensor</display-name>
         <display-name xml:lang="fr-BE">Nouvelle collection Digital Sensor BaByliss</display-name>
         <display-name xml:lang="fr-FR">Nouvelle collection Digital Sensor de BaByliss</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -36542,8 +36542,8 @@ La brosse soufflante, le lisseur et le Curl Secret de la collection Digital Sens
         <display-name xml:lang="en-AE">A NET AND SMOOTH SKIN BY PULSED LIGHT DEPILATION</display-name>
         <display-name xml:lang="fr-BE">Une peau nette et lisse grâce à l'épilation à la lumière pulsée</display-name>
         <display-name xml:lang="fr-FR">Une peau nette et lisse grâce à l'épilation à la lumière pulsée</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -36800,7 +36800,6 @@ Il existe une multitude d’épilateurs à la lumière pulsée sur le marché, n
                 <position>267.0</position>
             </classification-link>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
         <sitemap-changefrequency>weekly</sitemap-changefrequency>
         <sitemap-priority>1.0</sitemap-priority>
     </content>
@@ -49944,8 +49943,8 @@ Pour celles et ceux qui recherchent la crème de la crème, la tondeuse E985E po
     <content content-id="trophees-de-la-communication">
         <display-name xml:lang="x-default">BaByliss récompensé par 2 Trophées de la Communication en Digital</display-name>
         <display-name xml:lang="fr-FR">BaByliss récompensé par 2 Trophées de la Communication en Digital</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -50021,8 +50020,8 @@ Découvrez ce que pensent nos ambassadrices du sèche-cheveux Digital Sensor &lt
 
     <content content-id="trousse-toilette-babyliss">
         <display-name xml:lang="fr-FR">Ma checklist "trousse de toilette" par BaByliss Paris</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes/>
         <custom-attributes>
@@ -50137,7 +50136,7 @@ Et pour les douillettes, découvrez la tondeuse de précision Lady Secret de BaB
                 <position>238.0</position>
             </classification-link>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-included-flag>false</sitemap-included-flag>
         <sitemap-changefrequency>weekly</sitemap-changefrequency>
         <sitemap-priority>1.0</sitemap-priority>
     </content>
@@ -53143,8 +53142,8 @@ coiffer vendus&lt;/p&gt;&#13;
         <display-name xml:lang="x-default">CHOISISSEZ VOTRE BANDEAU AVEC L’APPLI WATCH IT DE BABYLISS</display-name>
         <display-name xml:lang="fr-BE">CHOISISSEZ VOTRE BANDEAU AVEC L’APPLI WATCH IT DE BABYLISS</display-name>
         <display-name xml:lang="fr-FR">CHOISISSEZ VOTRE BANDEAU AVEC L’APPLI WATCH IT DE BABYLISS</display-name>
-        <online-flag>true</online-flag>
-        <searchable-flag>true</searchable-flag>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
         <template>blog/article</template>
         <page-attributes>
             <page-title xml:lang="x-default">CHOISISSEZ VOTRE BANDEAU AVEC L’APPLI WATCH IT DE BABYLISS</page-title>
@@ -53211,7 +53210,7 @@ Téléchargez dès maintenant l’application Watch It sur App Store et Google P
         <folder-links>
             <folder-link folder-id="News"/>
         </folder-links>
-        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-included-flag>false</sitemap-included-flag>
         <sitemap-changefrequency>weekly</sitemap-changefrequency>
         <sitemap-priority>0.0</sitemap-priority>
     </content>
