@@ -1,28 +1,61 @@
-/* 
-    <category category-id="homme">
-    <content content-id="garantie">
-    <folder folder-id="root">
-    <category category-id="brosse-lissante">
-    <category category-id="brosse-soufflante">
-    <category category-id="curl-secret">
-    <category category-id="fer-a-boucler">
-    <category category-id="lisseur">
-    <category category-id="mini">
-    <category category-id="multi-styler">
-    <category category-id="seche-cheveux">
-*/
-
+const fs = require('fs')
+const contentxml = fs.readFileSync('./content-fr.xml', {encoding : 'utf8'})
+const storefrontxml = fs.readFileSync('./storefront-fr.xml', {encoding : 'utf8'})
 const csvFilePath = './csv.csv'
 const csv = require('csvtojson')
 const xmls = {content:'', storefront:''}
-function getXmlType( url ) {
-    if ( url.includes('femme') || url.includes('homme') ) {
-        return 'storefront'
+function getXmlTypeAndTag( url ) {
+    const xt = {xmlType: '', tag: ''}
+    if ( 
+        ( url.includes('femme') && !url.includes('blog') )
+        || ( url.includes('homme') && !url.includes('blog') ) // <category category-id="homme">
+    ) {
+            if ( url.includes('HERODESIGNER') ) {
+                return xt
+            }
+            xt.xmlType = 'storefront'
+            xt.tag = '<category category-id="!!ID">'
+            const urlParts = url.split('/')
+            const ID = urlParts[ urlParts.length - 2 ]
+            xt.tag = xt.tag.replace('!!ID', ID)
     }
-    if ( url === 'https://www.babyliss.fr/' || url.includes('blog') || url.includes('.html') ) {
-        return 'content'
+    else {
+        xt.xmlType = 'content'
+        if ( url === 'https://www.babyliss.fr/' ) {
+            xt.tag = '<folder folder-id="root">'
+        } 
+        else if ( url.includes('points-de-vente') ) {
+            xt.tag = '<content content-id="store-locator">'
+        }
+        else if ( url.includes('.html') ) {
+            xt.tag = '<content content-id="!!ID">'
+            let ID = url.split('/')
+            ID = ID[ID.length - 1]
+            ID = ID.split('.html')[0]
+            xt.tag = xt.tag.replace('!!ID', ID) // xt.tag = '<content content-id="garantie">'
+        }
+        else if (
+                url.includes('formulaire-de-contact')
+                || url.includes('demande-information-produit')
+                || url.includes('babyliss-sav')
+                || url.includes('commander-accessoires')
+                || url.includes('manuel-utilisation')
+                || url.includes('recrutement')
+            ){
+                    xt.tag = '<folder folder-id="contact-us-new">'
+            }
+        else if ( url.includes('blog') ) {
+
+            xt.tag = '<folder folder-id="blog">'
+            if (url.includes('femme')) {
+                xt.tag = '<folder folder-id="Conseils-femme">'
+            }
+            else if (url.includes('homme')) {
+                xt.tag = '<folder folder-id="Conseils-homme">'
+            }
+        }
     }
-    return `xml type not found for url ${url}`
+    return xt
 }
 csv({
     delimiter: [";"],
@@ -31,10 +64,22 @@ csv({
 .fromFile(csvFilePath)
 .then((jsonObj)=>{
     jsonObj.forEach(line => {
-        const xmlType = getXmlType(line.URL)
-        console.log(xmlType);
-        // getId
+        const typeAndTag = getXmlTypeAndTag(line.URL)
+        console.log(
+`
+${line.URL}
+${typeAndTag.xmlType}
+${line.TITLE}
+${line.DESCRIPTION}
+${typeAndTag.tag}
+`)
         // update xmls
-        // "please merge seo-content.xml and seo-storefront.xml
+
+
+
     });
+    fs.writeFileSync('./seo-content.xml', contentxml, 'utf8')
+    fs.writeFileSync('./seo-storefront.xml', storefrontxml, 'utf8')
+    console.log("please merge seo-content.xml and seo-storefront.xml")
+    
 })
